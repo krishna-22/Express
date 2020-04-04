@@ -18,7 +18,7 @@ dishRouter.route('/')
 
 .post((req,res)=>
 {
-    res.end('i will add the dish:'+ req.body.name+ 'with details'+req.body.description)
+    res.end('i will add the dish:'+ req.body.name+ 'with details '+ req.body.description)
 }) 
 
 .put((req,res)=>
